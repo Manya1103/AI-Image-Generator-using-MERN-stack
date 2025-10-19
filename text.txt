@@ -1,0 +1,10 @@
+#Frontend
+npm create vite@latest client
+npm install @emotion/react @emotion/styled @mui/icons-material @mui/lab @mui/material axios file-saver react-lazy-load-image-component react router-dom styled-components
+
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+
+#Backend
+npm init    # to initialize a Node.js project & create package.json
+npm install express cors mongoose dotenv openai cloudinary
